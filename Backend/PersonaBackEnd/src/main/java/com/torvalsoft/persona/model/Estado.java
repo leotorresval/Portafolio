@@ -18,6 +18,11 @@ public class Estado {
 	@JoinColumn (name= "pais_id")
 	private Pais pais;
 	private String nombre;
+	
+	public Estado() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public int getId() {
 		return id;
 	}

@@ -14,6 +14,10 @@ public class Pais {
 	private int id;
 	
 	private String nombre;
+	
+	public Pais() {
+		// TODO Auto-generated constructor stub
+	}
 
 	public Pais(String nombre) {
 		super();
